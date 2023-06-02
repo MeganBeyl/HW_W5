@@ -22,7 +22,7 @@
     <h1>Homework:Objects and Arrays</h1>
     <h2>Vehicle Inventory Log Form</h2>
 
-    <form id="vehicleLog">
+    <form id="inventoryLog">
         <h3>Vehicle Inventory Log</h3>
         <div class="form-group">
             <label for="exampleFormControlSelect1">Example select</label>
@@ -36,23 +36,23 @@
         </div>
 
         <div class="form-group">
-          <label for="exampleInputMake">Make</label>
+          <label for="exampleInputMake"></label>
           <input type="make" class="form-control" id="inputMake" aria-describedby="emailHelp" placeholder="Make">
           
         </div>
 
         <div class="form-group">
-          <label for="exampleInputModal">Modal</label>
+          <label for="exampleInputModal"></label>
           <input type="modal" class="form-control" id="inputModal" placeholder="Modal">
         </div>
 
         <div class="form-group">
-            <label for="exampleInputRegistration">Registration Number</label>
+            <label for="exampleInputRegistration"></label>
             <input type="registration" class="form-control" id="inputRegistartionNumber" placeholder="Registration Number">
         </div>
 
         <div class="form-group">
-            <label for="exampleFormControlSelect1">Example select</label>
+            <label for="exampleFormControlSelect1"></label>
             <select class="form-control" id="exampleFormControlSelect1">
               <option>Condition of Vehicle</option>
               <option>New</option>
@@ -62,36 +62,10 @@
             </select>
         </div>
         
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-primary" onclick="vehicleLog()">Log Vehicle</button>
     </form>
 
-    <form id="vehicleLog">
-        <h3>Vehicle Inventory Log</h3>
-
-        <select>
-            <option>Vehicle Type</option>
-            <option>Motorcycle</option>
-            <option>Car</option>
-            <option>PickUp Truck</option>
-            <option>Truck</option>
-        </select>
-
-        <input type="text" class="form-control" id="inputMake" aria-describedby="makeHelp" placeholder="Make">
-
-        <input type="text" class="form-control" id="inputModel" aria-describedby="modelHelp" placeholder="Model">
-
-        <input type="registration" class="form-control" id="inputRegistration" aria-describedby="registrationHelp" placeholder="Registration Number">
-
-        <select>
-            <option>Condition of Vehicle</option>
-            <option>New</option>
-            <option>Pre-owned</option>
-            <option>Damaged</option>
-            <option>Scrap Parts</option>
-        </select>
-
-      </form>
-
+    
     
   </body>
 </html>
