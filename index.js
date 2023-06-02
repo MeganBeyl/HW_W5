@@ -7,7 +7,7 @@ vehicleLog = () => {
     let vehicleNumber = document.getElementById("number").value;
     let vehicleCondition = document.getElementById("condition").value;
 
-    if(){
+    if(button === true){
         allVehicles.push({
             vehicleType: type,
             vehicleMake: make,
